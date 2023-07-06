@@ -1,0 +1,90 @@
+.sc3-box{
+    margin-top: 100px;
+}
+
+.sc3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sc3 .text{
+    margin-right: 20px;
+}
+
+.sc3 h1{
+    margin: 20px 0px;
+    max-width: 530px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.sc3 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #868695;
+    max-width: 460px;
+}
+
+.sc3 .box .card{
+    width: 270px;
+    margin-right: 20px;
+    background: #0E0E2C;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sc3 .box .card h3{
+    margin: 10px 0px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.div{
+    width: 70px;
+    height: 66px;
+    background: #3E3125;
+    border-radius: 10px;
+    text-align: center;
+    padding: 13px 5px;
+}
+
+.sc3 .cardss{
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+
+@media (max-width:900px) {
+    .sc3 h1{
+        margin: 20px 0px;
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .sc3 p{
+        line-height: 20px;
+    }
+}
+@media (max-width:870px) {
+    .sc3{
+        flex-wrap: wrap;
+    }
+    .sc3 .box{
+        margin: 0  auto;
+        margin-top: 30px;
+    }
+}
+@media (max-width:590px) {
+    .sc3 .box{
+        margin: 20px 0;
+    }
+    .sc3 .box .cardss{
+        flex-wrap: wrap;
+    }
+    .sc3 .box .cardss .card{
+        margin: 20px 0px;
+    }
+}

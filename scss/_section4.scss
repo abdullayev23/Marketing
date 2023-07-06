@@ -1,0 +1,54 @@
+.sc4-box{
+    margin-top: 100px;
+}
+
+.sc4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.sc4 h1{
+    max-width: 530px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.sc4 h3{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.cek{
+    margin-right: 20px;
+}
+
+.sc4 p{
+    margin-top: 20px;
+    max-width: 320px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #868695;
+}
+
+@media (max-width:1090px) {
+    .sc4 .img .kreslo img{
+        width: 80%;
+    }
+}
+@media (max-width:780px) {
+    .sc4 .img{
+        display: none;
+    }
+    .sc4 h1{
+        margin-bottom: 20px;
+    }
+}
